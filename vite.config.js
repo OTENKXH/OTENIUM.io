@@ -10,5 +10,5 @@ export default defineConfig({
     tailwindcss(),
     ghPages()
   ],
-  base: '/repo-name/',
+  base: '/https://github.com/OTENKXH/OTEIUM.io.git/',
 })
