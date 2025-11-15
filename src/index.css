@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+body {
+  @apply text-black dark:bg-zinc-700 bg-primary dark:text-white;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@utility container {
+  max-width: 1720px;
+  margin: 15;
+  margin: 15px auto;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  overflow-wrap: break-word;
+  scroll-behavior: smooth;
+}
+
+
+@theme{
+  --color-primary: oklch(0.96 0 200);
+  --color-muted: oklch(0.76 0 200);
+  --color-hover: oklch(0.76 0.1 200);
+  --color-secondary: oklch(0.76 0.1 20);
+  --color-bg-dark: oklch(0.1 0 200);
+  --color-bg: oklch(0.15 0 200);
+  --color-bg-light: oklch(0.2 0 200);
+
+  --highlight: oklch(0.5 0 200);
+  --danger: oklch(0.7 0.05 30);
+  --warning: oklch(0.7 0.05 100);
+  --success: oklch(0.7 0.05 160);
+  --info: oklch(0.7 0.05 260);
+
+    --radius-l: 10px;
+
+    --font-Dana: "Dana";
+    --font-DanaMedium: "Dana Medium";
+    --font-DanaDemiBold: "Dana DemiBold";
+    --font-MorabbaLight: "Morabba Light";
+    --font-MorabbaMedium: "Morabba Medium";
+    --font-MorabbaBold: "Morabba Bold";
+
+    --breakpoint-xs: 30rem;
+
+    --shadow-dark: 5px -15px 15px #2f2f35,
+                  -5px 10px 15px #4f4f58;  
+    --color-dark: linear-gradient(145deg, #39393f, #43434b);
+
+    --shadow-light: 5px -15px 15px #bebebe,
+                   -5px 10px 15px #ffffff;
+    --color-light: linear-gradient(45deg, #cacaca, #f0f0f0);
+
+    --shadow-neg-dark:inset 10px -10px 20px #2f2f35,
+                      inset -10px 10px 20px #4f4f58;
+
+    --shadow-neg-light: inset 10px -10px 20px #bebebe,
+                        inset -10px 10px 20px #ffffff;
+}
+
+@layer base{
+  @font-face {
+    font-family: "Dana";
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Dana/DanaFaNum-Regular.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Dana Medium";
+    font-display: swap;
+    src: url("../fonts/Dana/DanaFaNum-Medium.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Dana DemiBold";
+    font-display: swap;
+    src: url("../fonts/Dana/DanaFaNum-DemiBold.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Morabba Light";
+    font-display: swap;
+    src: url("../fonts/Morabba/Morabba-Light.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Morabba Medium";
+    font-display: swap;
+    src: url("../fonts/Morabba/Morabba-Medium.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Morabba Bold";
+    font-display: swap;
+    src: url("../fonts/Morabba/Morabba-Bold.woff2") format("woff2");
+  }
+}
+
+.custom-border-neg{
+  box-shadow: inset 10px -10px 20px #2f2f35,
+  inset -10px 10px 20px #4f4f58;
+}
+
+.custom-border-neg-light{
+  box-shadow: inset 10px -10px 20px #bebebe,
+              inset -10px 10px 20px #ffffff;
+}
+.custom-shadow{
+    text-shadow: 1px 1px 1px #5a5a5a, 
+                -1px 1px 3px #000000, 
+                 1px -2px 6px #070707;
+}
+.svg-shadow{
+  filter: drop-shadow( .5px -.2px 0 rgb(0, 0, 0))
+          drop-shadow( -.5px 1px 1px rgba(255,255,255,.6));
+}
+.img-shadow{
+  color: #acacacb9;
+  filter: drop-shadow( 5px -15px 15px #2f2f35)
+          drop-shadow( -5px 10px 15px #4f4f58);
+}
