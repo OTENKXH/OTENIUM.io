@@ -37,19 +37,19 @@ export default function Menu(){
                 </div>
                 <div className="flex flex-wrap flex-2 items-center justify-center gap-x-4 gap-y-3 mx-auto h-max mt-8 p-4 dark:shadow-neg-dark shadow-neg-light rounded-xl">
                     <div className="sm:w-40 sm:h-40 w-20 h-20">
-                        <img className="w-full h-full object-contain block" src="/images/HTML.png" alt="" />
+                        <img className="w-full h-full object-contain block" src={`${import.meta.env.BASE_URL}images/HTML.png`} alt="" />
                     </div>
                     <div className="sm:w-40 sm:h-40 w-20 h-20">
-                        <img className="w-full h-full object-contain block" src="/images/CSS.png" alt="" />
+                        <img className="w-full h-full object-contain block"  src={`${import.meta.env.BASE_URL}images/CSS.png`} alt="" />
                     </div>
                     <div className="sm:w-40 sm:h-40 w-20 h-20">
-                        <img className="w-full h-full object-contain block" src="/images/TAILWIND.png" alt="" />
+                        <img className="w-full h-full object-contain block" src={`${import.meta.env.BASE_URL}images/TAILWIND.png`} alt="" />
                     </div>
                     <div className="sm:w-40 sm:h-40 w-20 h-20">
-                        <img className="w-full h-full object-contain block" src="/images/JS.png" alt="" />
+                        <img className="w-full h-full object-contain block" src={`${import.meta.env.BASE_URL}images/JS.png`} alt="" />
                     </div>
                     <div className="sm:w-40 sm:h-40 w-20 h-20">
-                        <img className="w-full h-full object-contain block" src="/images/REACT.png" alt="" />
+                        <img className="w-full h-full object-contain block" src={`${import.meta.env.BASE_URL}images/REACT.png`} alt="" />
                     </div>
                 </div>
                 <div>

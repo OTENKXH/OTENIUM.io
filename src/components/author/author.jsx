@@ -6,7 +6,7 @@ export default function Author(){
         <section className="text-center w-full h-fit lg:basis-45/100 dark:shadow-dark shadow-light rounded-3xl dark:text-muted text-zinc-800 p-12 dark:bg-dark bg-light">
             <div>
                 <div className="rounded-2xl max-w-120 mx-auto custom-border-neg overflow-hidden">
-                    <img className="w-full mx-auto object-cover" src="/images/1.jpg" alt=""/>
+                    <img className="w-full mx-auto object-cover" src={`${import.meta.env.BASE_URL}images/1.jpg`} alt=""/>
                 </div>
                 <div className="xs:mt-16 ">
                     <h2 className="font-MorabbaBold xs:text-4xl text-3xl  my-8">حسین کشاورز</h2>
