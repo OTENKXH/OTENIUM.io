@@ -49,4 +49,4 @@ If you want to reach out or collaborate, feel free to open an issue or contact m
 
 ## ✨ Credits
 
-Designed, built, and maintained by **OTENIUM**.
+Designed, built, and maintained by <a target="_blank" href="t.me/otenium">**OTENIUM**</a>.
