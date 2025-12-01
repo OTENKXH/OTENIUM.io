@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/OTENIUM.io/',
+  base: './OTENIUM.io/',
 })
