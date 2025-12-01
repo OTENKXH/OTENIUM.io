@@ -22,17 +22,17 @@ body {
   @font-face {
     font-family: "Morabba Light";
     font-display: swap;
-    src: url("fonts/Morabba/Morabba-Light.woff2") format("woff2");
+    src: url("/fonts/Morabba/Morabba-Light.woff2") format("woff2");
   }
   @font-face {
     font-family: "Morabba Medium";
     font-display: swap;
-    src: url("fonts/Morabba/Morabba-Medium.woff2") format("woff2");
+    src: url("/fonts/Morabba/Morabba-Medium.woff2") format("woff2");
   }
   @font-face {
     font-family: "Morabba Bold";
     font-display: swap;
-    src: url("fonts/Morabba/Morabba-Bold.woff2") format("woff2");
+    src: url("/fonts/Morabba/Morabba-Bold.woff2") format("woff2");
   }
 }
 
