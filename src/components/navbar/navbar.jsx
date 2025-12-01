@@ -26,12 +26,12 @@ export default function Navbar(){
         <div className="hidden xl:flex flex-col dark:text-muted text-zinc-800 dark:bg-dark bg-light">
             <div className="flex flex-col gap-y-6 ">
                 <div className="flex items-center justify-center w-full h-22  dark:shadow-dark shadow-light rounded-xl">
-                    <svg className="w-10 h-10 svg-shadow hover:text-primary cursor-pointer">
+                    <svg className="w-10 h-10 svg-shadow dark:hover:text-primary hover:text-zinc-500 cursor-pointer">
                         <use href="#menu"></use>
                     </svg>
                 </div>
                 <div className="w-20 p-7 dark:shadow-dark bg-light shadow-light rounded-xl">
-                    <ul className="flex flex-col gap-y-10 items-center justify-center *:hover:text-primary">
+                    <ul className="flex flex-col gap-y-10 items-center justify-center *:hover:text-zinc-500 *:dark:hover:text-primary">
                         <li>
                             <a href="#">
                                 <svg className="w-8 h-8 svg-shadow">
